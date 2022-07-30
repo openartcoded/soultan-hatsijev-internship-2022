@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "plugins": [
+      "@morrowdigital/watermelondb-expo-plugin"
+    ],
+    "name": "TSReactNative",
+    "slug": "TSReactNative",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let the user scan barcode."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "com.aspirio.TSReactNative"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "45.0.0",
+    "entryPoint": ".vscode/exponentIndex.js"
+  },
+  "name": "tsreactnative"
+}
