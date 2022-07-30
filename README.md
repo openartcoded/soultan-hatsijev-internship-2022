@@ -1,1 +1,1 @@
-# soultan-hatsijev-internship-2022
+# Soultan HATSIJEV - Intership 2022
